@@ -27641,7 +27641,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/index.md',
-                updatedTime: 1655450508006,
+                updatedTime: 1655451062e3,
                 slugs: [{ depth: 2, value: 'Hello algoPractive', heading: 'hello-algopractive' }],
                 title: 'Hello algoPractive',
               },
@@ -27653,7 +27653,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/utils/compareArr.md',
-                updatedTime: 1655450861921,
+                updatedTime: 1655451062e3,
                 slugs: [
                   { depth: 1, value: 'compareArr', heading: 'comparearr' },
                   { depth: 2, value: '\u7b97\u6cd5\uff1a', heading: '\u7b97\u6cd5' },
