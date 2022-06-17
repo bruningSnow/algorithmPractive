@@ -5763,16 +5763,16 @@
             { className: 'markdown' },
             o.a.createElement(
               'h2',
-              { id: 'hello-algorithmpractive' },
+              { id: 'hello-algopractive' },
               o.a.createElement(
                 i['AnchorLink'],
-                { to: '#hello-algorithmpractive', 'aria-hidden': 'true', tabIndex: -1 },
+                { to: '#hello-algopractive', 'aria-hidden': 'true', tabIndex: -1 },
                 o.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              'Hello algorithmPractive',
+              'Hello algoPractive',
             ),
             o.a.createElement(a['a'], {
-              code: '\u65e5\u5e38\u7b97\u6cd5\u5b66\u4e60\u7b14\u8bb0\u53ca\u7ec3\u4e60\u3002',
+              code: '\u4e2a\u4eba\u5e73\u5e38\u7b97\u6cd5\u7b14\u8bb0\u53ca\u7ec3\u4e60\uff01',
               lang: 'unknown',
             }),
           ),
@@ -20488,7 +20488,7 @@
           previewerProps: {
             sources: {
               _: {
-                tsx: "import React from 'react';\nimport { compareArr } from 'algorithmPractive';\n\nexport default () => (\n  <div>\n    <pre>{JSON.stringify(compareArr([1, 2, 3], [1, 4, 5, 6, 23]))}</pre>\n  </div>\n);",
+                tsx: "import React from 'react';\nimport { compareArr } from 'algorithmPractive';\nexport default () => (\n  <div>\n    <pre>{JSON.stringify(compareArr([1, 2, 3], [1, 4, 5, 6, 23]))}</pre>\n  </div>\n);",
               },
             },
             dependencies: { react: { version: '17.0.2' }, algorithmPractive: { version: '1.0.0' } },
@@ -25462,7 +25462,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hello algorithmPractive","meta":{}},{"title":"Utils","path":"/utils","meta":{},"children":[{"path":"/utils/compare-arr","title":"compareArr","meta":{}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"algorithmPractive","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
+      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hello algoPractive","meta":{}},{"title":"Utils","path":"/utils","meta":{},"children":[{"path":"/utils/compare-arr","title":"compareArr","meta":{}}]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{},"title":"algPractive","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"doc","repository":{"url":"","branch":"master"},"theme":{},"exportStatic":{}}',
     );
   },
   qA1w: function (e, t, n) {
@@ -27641,17 +27641,11 @@
               exact: !0,
               meta: {
                 filePath: 'docs/index.md',
-                updatedTime: 1655447361732,
-                slugs: [
-                  {
-                    depth: 2,
-                    value: 'Hello algorithmPractive',
-                    heading: 'hello-algorithmpractive',
-                  },
-                ],
-                title: 'Hello algorithmPractive',
+                updatedTime: 1655450508006,
+                slugs: [{ depth: 2, value: 'Hello algoPractive', heading: 'hello-algopractive' }],
+                title: 'Hello algoPractive',
               },
-              title: 'Hello algorithmPractive - algorithmPractive',
+              title: 'Hello algoPractive - algPractive',
             },
             {
               path: '/utils/compare-arr',
@@ -27659,7 +27653,7 @@
               exact: !0,
               meta: {
                 filePath: 'docs/utils/compareArr.md',
-                updatedTime: 1655448703845,
+                updatedTime: 1655450861921,
                 slugs: [
                   { depth: 1, value: 'compareArr', heading: 'comparearr' },
                   { depth: 2, value: '\u7b97\u6cd5\uff1a', heading: '\u7b97\u6cd5' },
@@ -27683,11 +27677,11 @@
                 hasPreviewer: !0,
                 group: { path: '/utils', title: 'Utils' },
               },
-              title: 'compareArr - algorithmPractive',
+              title: 'compareArr - algPractive',
             },
             { path: '/utils', meta: {}, exact: !0, redirect: '/utils/compare-arr' },
           ],
-          title: 'algorithmPractive',
+          title: 'algPractive',
           component: (e) => e.children,
         },
       ];
@@ -27715,7 +27709,7 @@
                 history: Object(o['a'])(e.hot),
                 isServer: Object({ NODE_ENV: 'production' }).__IS_SERVER,
                 rootElement: 'root',
-                defaultTitle: 'algorithmPractive',
+                defaultTitle: 'algPractive',
               },
             });
             return z(t);
